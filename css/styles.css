@@ -65,6 +65,10 @@ h3 {
 
 /* MAIN */
 /* Hero */
+.hero {
+  background-color: var(--secondary-background-color);
+}
+
 .hero-title {
   color: var(--primary-white-color);
 }
@@ -90,6 +94,9 @@ h3 {
 }
 
 /* FOOTER */
+.footer {
+  background-color: var(--secondary-background-color);
+}
 /* footer logo */
 .foot-logo {
   color: var(--primary-white-color);
