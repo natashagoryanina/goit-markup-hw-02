@@ -1,0 +1,120 @@
+/* 
+main background #ffffff
+hero and footer
+background      #2f303a
+accent, "Web"   #2196f3
+"Studio"        #000000
+headers         #212121
+text            #757575
+footer contacts #fff 60% 
+portfolio button 
+background      #f5f4fa
+*/
+
+:root {
+  --primary-white-color: #fff;
+  --secondary-background-color: #2f303a;
+  --accent-color: #2196f3;
+  --headers-color: #212121;
+  --text-color: #757575;
+  --portfolio-button-background: #f5f4fa;
+}
+
+.page {
+  color: var(--text-color);
+  background-color: var(--primary-white-color);
+}
+
+/*h2,
+h3 {
+  color: #212121;
+}*/
+
+.list {
+  list-style: none;
+}
+
+/* HEADER */
+/* header logo */
+.head-logo {
+  color: #000;
+}
+
+.web-logo {
+  color: var(--accent-color);
+}
+
+/* site navigation */
+.site-nav .link {
+  color: var(--headers-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.head-contacts .link {
+  color: var(--text-color);
+}
+
+.head-contacts a:hover,
+.head-contacts a:focus {
+  color: var(--accent-color);
+}
+
+/* MAIN */
+/* Hero */
+.hero-title {
+  color: var(--primary-white-color);
+}
+
+.button {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+}
+
+/* Характеристика компании */
+.features-list .title {
+  color: var(--headers-color);
+}
+
+/*  Род деятельности */
+.section-title {
+  color: var(--headers-color);
+}
+
+/* Команда */
+.workers-list .title {
+  color: var(--headers-color);
+}
+
+/* FOOTER */
+/* footer logo */
+.foot-logo {
+  color: var(--primary-white-color);
+}
+
+.foot-address {
+  color: var(--primary-white-color);
+}
+
+.foot-contacts .link {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* PORTFOLIO */
+.projects-list .title {
+  color: var(--headers-color);
+}
+
+.buttons-list button {
+  color: var(--headers-color);
+  background-color: var(--portfolio-button-background);
+}
+
+.buttons-list button:hover,
+.buttons-list button:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
